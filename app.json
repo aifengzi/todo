@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "modules/todos/pages/index/index"
+  ],
+  "usingComponents": {},
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "black"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于为您检索周边的服务"
+    }
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

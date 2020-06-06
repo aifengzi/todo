@@ -1,0 +1,16 @@
+<view class="header">
+  <input class="input" value="" bindinput="onInput" type="text" placeholder="请输入您的待办事项" />
+  <text class="add" hover-class="hover" bindtap="onAdd">添加</text>
+</view>
+
+<view class="history" wx:if="{{todos.length}}">
+  <view class="todo" wx:for="{{todos}}" wx:key="todo">
+    <view class="name">{{item.name}}</view>
+    <view class="time">{{item.time}}</view>
+  </view>
+</view>
+
+<view class="empty" wx:else>
+  <image class="empty_ic" src="./../../images/empty.png" />
+  <view class="empty_tip">还没有添加待办事项，快去试试吧</view>
+</view>
