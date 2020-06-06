@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "Todo",
+  "backgroundColorTop": "#ffffff",
+  "backgroundColorBottom": "#f7f8fa",
+  "navigationBarBackgroundColor": "#f7f8fa",
+  "usingComponents": {
+
+  }
+}
